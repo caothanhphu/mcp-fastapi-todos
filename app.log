@@ -1,0 +1,1508 @@
+2025-06-02 20:45:23,530 - app.main - INFO - Starting up application...
+2025-06-02 20:45:23,531 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-02 20:45:23,531 - app.database - INFO - Database connected successfully
+2025-06-02 20:45:23,533 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-02 20:45:23,534 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-02 20:45:23,534 - app.database - INFO - Database tables created successfully
+2025-06-02 20:45:38,149 - app.main - INFO - Shutting down application...
+2025-06-02 20:45:47,443 - app.main - INFO - Starting up application...
+2025-06-02 20:45:47,444 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-02 20:45:47,444 - app.database - INFO - Database connected successfully
+2025-06-02 20:45:47,445 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-02 20:45:47,445 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-02 20:45:47,445 - app.database - INFO - Database tables created successfully
+2025-06-02 20:46:02,695 - app.main - INFO - Shutting down application...
+2025-06-02 21:32:46,726 - app.main - INFO - Starting up application...
+2025-06-02 21:32:46,727 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-02 21:32:46,728 - app.database - INFO - Database connected successfully
+2025-06-02 21:32:46,733 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-02 21:32:46,734 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-02 21:32:46,734 - app.database - INFO - Database tables created successfully
+2025-06-02 21:32:53,594 - app.main - INFO - Shutting down application...
+2025-06-02 21:33:02,732 - app.main - INFO - Starting up application...
+2025-06-02 21:33:02,732 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-02 21:33:02,732 - app.database - INFO - Database connected successfully
+2025-06-02 21:33:02,733 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-02 21:33:02,733 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-02 21:33:02,733 - app.database - INFO - Database tables created successfully
+2025-06-02 21:33:06,379 - app.main - INFO - Shutting down application...
+2025-06-02 21:41:48,169 - app.main - INFO - Starting up application...
+2025-06-02 21:41:48,169 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-02 21:41:48,169 - app.database - INFO - Database connected successfully
+2025-06-02 21:41:48,170 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-02 21:41:48,170 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("todos")
+2025-06-02 21:41:48,171 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-06-02 21:41:48,174 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-02 21:41:48,174 - app.database - INFO - Database tables created successfully
+2025-06-02 21:42:27,367 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-02 21:42:27,373 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-02 21:42:27,374 - sqlalchemy.engine.Engine - INFO - [generated in 0.00096s] ()
+2025-06-02 21:42:27,379 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-02 21:42:27,379 - sqlalchemy.engine.Engine - INFO - [generated in 0.00064s] (10, 0)
+2025-06-02 21:42:27,384 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-02 21:42:58,907 - app.main - INFO - Shutting down application...
+2025-06-02 22:01:44,637 - app.main - INFO - Starting up application...
+2025-06-02 22:01:44,637 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-02 22:01:44,637 - app.database - INFO - Database connected successfully
+2025-06-02 22:01:44,638 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-02 22:01:44,638 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("todos")
+2025-06-02 22:01:44,638 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-06-02 22:01:44,639 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-02 22:01:44,639 - app.database - INFO - Database tables created successfully
+2025-06-02 22:02:15,562 - app.main - INFO - Shutting down application...
+2025-06-02 22:02:16,492 - app.main - INFO - Starting up application...
+2025-06-02 22:02:16,492 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-02 22:02:16,492 - app.database - INFO - Database connected successfully
+2025-06-02 22:02:16,493 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-02 22:02:16,493 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("todos")
+2025-06-02 22:02:16,493 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-06-02 22:02:16,494 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-02 22:02:16,494 - app.database - INFO - Database tables created successfully
+2025-06-02 22:30:43,408 - app.main - INFO - Shutting down application...
+2025-06-03 00:01:39,782 - app.main - INFO - Starting up application...
+2025-06-03 00:01:39,784 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-03 00:01:39,785 - app.database - INFO - Database connected successfully
+2025-06-03 00:01:39,799 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 00:01:39,803 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("todos")
+2025-06-03 00:01:39,805 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-06-03 00:01:39,818 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-03 00:01:39,820 - app.database - INFO - Database tables created successfully
+2025-06-03 00:02:46,204 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 00:02:46,222 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 00:02:46,224 - sqlalchemy.engine.Engine - INFO - [generated in 0.00235s] ()
+2025-06-03 00:02:46,249 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 00:02:46,253 - sqlalchemy.engine.Engine - INFO - [generated in 0.00360s] (10, 0)
+2025-06-03 00:02:46,264 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 00:08:29,324 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 00:08:29,334 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.status = ? AND todos.priority = ? AND (lower(todos.title) LIKE lower(?) OR lower(todos.description) LIKE lower(?)) AND (todos.tags LIKE '%' || ? || '%') AND todos.due_date <= ?) AS anon_1
+2025-06-03 00:08:29,335 - sqlalchemy.engine.Engine - INFO - [generated in 0.00209s] ('PENDING', 'LOW', '%mai%', '%mai%', '["a3"]', '2025-06-05 00:00:00.000000')
+2025-06-03 00:08:29,346 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.status = ? AND todos.priority = ? AND (lower(todos.title) LIKE lower(?) OR lower(todos.description) LIKE lower(?)) AND (todos.tags LIKE '%' || ? || '%') AND todos.due_date <= ? ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 00:08:29,347 - sqlalchemy.engine.Engine - INFO - [generated in 0.00330s] ('PENDING', 'LOW', '%mai%', '%mai%', '["a3"]', '2025-06-05 00:00:00.000000', 10, 0)
+2025-06-03 00:08:29,351 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 00:20:58,696 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 00:20:58,703 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.status = ?) AS anon_1
+2025-06-03 00:20:58,704 - sqlalchemy.engine.Engine - INFO - [generated in 0.00160s] ('PENDING',)
+2025-06-03 00:20:58,709 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.status = ? ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 00:20:58,715 - sqlalchemy.engine.Engine - INFO - [generated in 0.00542s] ('PENDING', 10, 0)
+2025-06-03 00:20:58,721 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 15:27:53,992 - app.main - INFO - Shutting down application...
+2025-06-03 17:11:36,612 - app.main - INFO - Starting up application...
+2025-06-03 17:11:36,612 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-03 17:11:36,612 - app.database - INFO - Database connected successfully
+2025-06-03 17:11:36,616 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 17:11:36,616 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("todos")
+2025-06-03 17:11:36,617 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-06-03 17:11:36,619 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-03 17:11:36,619 - app.database - INFO - Database tables created successfully
+2025-06-03 17:12:07,143 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 17:12:07,150 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.status = ?) AS anon_1
+2025-06-03 17:12:07,151 - sqlalchemy.engine.Engine - INFO - [generated in 0.00126s] ('PENDING',)
+2025-06-03 17:12:07,155 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.status = ? ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 17:12:07,156 - sqlalchemy.engine.Engine - INFO - [generated in 0.00086s] ('PENDING', 10, 0)
+2025-06-03 17:12:07,163 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 19:58:37,132 - app.main - INFO - Shutting down application...
+2025-06-03 20:17:08,698 - app.main - INFO - Starting up application...
+2025-06-03 20:17:08,698 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-03 20:17:08,698 - app.database - INFO - Database connected successfully
+2025-06-03 20:17:08,701 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:17:08,701 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("todos")
+2025-06-03 20:17:08,701 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-06-03 20:17:08,704 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-03 20:17:08,704 - app.database - INFO - Database tables created successfully
+2025-06-03 20:29:08,320 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:29:08,324 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 20:29:08,324 - sqlalchemy.engine.Engine - INFO - [generated in 0.00053s] ()
+2025-06-03 20:29:08,330 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 20:29:08,330 - sqlalchemy.engine.Engine - INFO - [generated in 0.00051s] (10, 0)
+2025-06-03 20:29:08,334 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:29:08,340 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:29:08,341 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 20:29:08,341 - sqlalchemy.engine.Engine - INFO - [cached since 0.01768s ago] ()
+2025-06-03 20:29:08,342 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 20:29:08,342 - sqlalchemy.engine.Engine - INFO - [cached since 0.01255s ago] (10, 0)
+2025-06-03 20:29:08,343 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:29:15,494 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:29:15,495 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 20:29:15,495 - sqlalchemy.engine.Engine - INFO - [cached since 7.172s ago] ()
+2025-06-03 20:29:15,496 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 20:29:15,497 - sqlalchemy.engine.Engine - INFO - [cached since 7.167s ago] (10, 0)
+2025-06-03 20:29:15,498 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:37:59,571 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:37:59,572 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 20:37:59,573 - sqlalchemy.engine.Engine - INFO - [cached since 531.2s ago] ()
+2025-06-03 20:37:59,574 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 20:37:59,574 - sqlalchemy.engine.Engine - INFO - [cached since 531.2s ago] (10, 0)
+2025-06-03 20:37:59,575 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:47:10,960 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:47:10,960 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 20:47:10,961 - sqlalchemy.engine.Engine - INFO - [cached since 1083s ago] ()
+2025-06-03 20:47:10,962 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 20:47:10,963 - sqlalchemy.engine.Engine - INFO - [cached since 1083s ago] (10, 0)
+2025-06-03 20:47:10,965 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:47:10,971 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:47:10,972 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 20:47:10,972 - sqlalchemy.engine.Engine - INFO - [cached since 1083s ago] ()
+2025-06-03 20:47:10,973 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 20:47:10,974 - sqlalchemy.engine.Engine - INFO - [cached since 1083s ago] (10, 0)
+2025-06-03 20:47:10,975 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:47:10,981 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:47:10,982 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 20:47:10,983 - sqlalchemy.engine.Engine - INFO - [cached since 1083s ago] ()
+2025-06-03 20:47:10,984 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 20:47:10,985 - sqlalchemy.engine.Engine - INFO - [cached since 1083s ago] (10, 0)
+2025-06-03 20:47:10,987 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:51:36,170 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:51:36,171 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 20:51:36,172 - sqlalchemy.engine.Engine - INFO - [cached since 1348s ago] ()
+2025-06-03 20:51:36,173 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 20:51:36,174 - sqlalchemy.engine.Engine - INFO - [cached since 1348s ago] (10, 0)
+2025-06-03 20:51:36,175 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:51:36,183 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:51:36,183 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 20:51:36,184 - sqlalchemy.engine.Engine - INFO - [cached since 1348s ago] ()
+2025-06-03 20:51:36,185 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 20:51:36,185 - sqlalchemy.engine.Engine - INFO - [cached since 1348s ago] (10, 0)
+2025-06-03 20:51:36,186 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:51:36,191 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:51:36,192 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 20:51:36,192 - sqlalchemy.engine.Engine - INFO - [cached since 1348s ago] ()
+2025-06-03 20:51:36,193 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 20:51:36,194 - sqlalchemy.engine.Engine - INFO - [cached since 1348s ago] (10, 0)
+2025-06-03 20:51:36,196 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:55:12,187 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:55:12,188 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 20:55:12,188 - sqlalchemy.engine.Engine - INFO - [cached since 1564s ago] ()
+2025-06-03 20:55:12,190 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 20:55:12,190 - sqlalchemy.engine.Engine - INFO - [cached since 1564s ago] (10, 0)
+2025-06-03 20:55:12,192 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:55:12,201 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:55:12,202 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 20:55:12,202 - sqlalchemy.engine.Engine - INFO - [cached since 1564s ago] ()
+2025-06-03 20:55:12,203 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 20:55:12,204 - sqlalchemy.engine.Engine - INFO - [cached since 1564s ago] (10, 0)
+2025-06-03 20:55:12,206 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:55:12,211 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:55:12,212 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 20:55:12,213 - sqlalchemy.engine.Engine - INFO - [cached since 1564s ago] ()
+2025-06-03 20:55:12,214 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 20:55:12,215 - sqlalchemy.engine.Engine - INFO - [cached since 1564s ago] (10, 0)
+2025-06-03 20:55:12,217 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:55:14,775 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:55:14,781 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 20:55:14,782 - sqlalchemy.engine.Engine - INFO - [generated in 0.00131s] ('stats', 1, 0)
+2025-06-03 20:55:14,785 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:55:14,786 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 20:55:14,791 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:55:14,792 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 20:55:14,793 - sqlalchemy.engine.Engine - INFO - [cached since 0.01234s ago] ('stats', 1, 0)
+2025-06-03 20:55:14,794 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:55:14,795 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 20:55:14,800 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:55:14,802 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 20:55:14,802 - sqlalchemy.engine.Engine - INFO - [cached since 0.02191s ago] ('stats', 1, 0)
+2025-06-03 20:55:14,803 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:55:14,804 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 20:55:38,830 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:55:38,832 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 20:55:38,832 - sqlalchemy.engine.Engine - INFO - [cached since 24.05s ago] ('stats', 1, 0)
+2025-06-03 20:55:38,834 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:55:38,835 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 20:55:38,841 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:55:38,842 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 20:55:38,843 - sqlalchemy.engine.Engine - INFO - [cached since 24.06s ago] ('stats', 1, 0)
+2025-06-03 20:55:38,845 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:55:38,846 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 20:55:38,853 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:55:38,854 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 20:55:38,856 - sqlalchemy.engine.Engine - INFO - [cached since 24.08s ago] ('stats', 1, 0)
+2025-06-03 20:55:38,857 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:55:38,858 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 20:55:49,704 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:55:49,705 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 20:55:49,706 - sqlalchemy.engine.Engine - INFO - [cached since 34.93s ago] ('stats', 1, 0)
+2025-06-03 20:55:49,708 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:55:49,709 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 20:55:49,715 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:55:49,716 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 20:55:49,717 - sqlalchemy.engine.Engine - INFO - [cached since 34.94s ago] ('stats', 1, 0)
+2025-06-03 20:55:49,718 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:55:49,719 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 20:55:49,725 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:55:49,726 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 20:55:49,727 - sqlalchemy.engine.Engine - INFO - [cached since 34.95s ago] ('stats', 1, 0)
+2025-06-03 20:55:49,729 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:55:49,730 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 20:57:00,232 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:57:00,234 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 20:57:00,234 - sqlalchemy.engine.Engine - INFO - [cached since 1672s ago] ()
+2025-06-03 20:57:00,235 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 20:57:00,235 - sqlalchemy.engine.Engine - INFO - [cached since 1672s ago] (10, 0)
+2025-06-03 20:57:00,236 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:57:00,242 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:57:00,242 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 20:57:00,243 - sqlalchemy.engine.Engine - INFO - [cached since 1672s ago] ()
+2025-06-03 20:57:00,244 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 20:57:00,244 - sqlalchemy.engine.Engine - INFO - [cached since 1672s ago] (10, 0)
+2025-06-03 20:57:00,245 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:57:00,249 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:57:00,250 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 20:57:00,250 - sqlalchemy.engine.Engine - INFO - [cached since 1672s ago] ()
+2025-06-03 20:57:00,251 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 20:57:00,251 - sqlalchemy.engine.Engine - INFO - [cached since 1672s ago] (10, 0)
+2025-06-03 20:57:00,252 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:57:04,102 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:57:04,103 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 20:57:04,103 - sqlalchemy.engine.Engine - INFO - [cached since 109.3s ago] ('stats', 1, 0)
+2025-06-03 20:57:04,103 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:57:04,104 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 20:57:04,108 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:57:04,109 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 20:57:04,109 - sqlalchemy.engine.Engine - INFO - [cached since 109.3s ago] ('stats', 1, 0)
+2025-06-03 20:57:04,110 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:57:04,111 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 20:57:04,116 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:57:04,116 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 20:57:04,116 - sqlalchemy.engine.Engine - INFO - [cached since 109.3s ago] ('stats', 1, 0)
+2025-06-03 20:57:04,117 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:57:04,118 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 20:57:09,069 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:57:09,070 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 20:57:09,070 - sqlalchemy.engine.Engine - INFO - [cached since 114.3s ago] ('stats', 1, 0)
+2025-06-03 20:57:09,071 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:57:09,072 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 20:57:09,076 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:57:09,077 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 20:57:09,078 - sqlalchemy.engine.Engine - INFO - [cached since 114.3s ago] ('stats', 1, 0)
+2025-06-03 20:57:09,079 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:57:09,080 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 20:57:09,083 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 20:57:09,084 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 20:57:09,085 - sqlalchemy.engine.Engine - INFO - [cached since 114.3s ago] ('stats', 1, 0)
+2025-06-03 20:57:09,086 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 20:57:09,088 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:02:12,506 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:12,507 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:12,508 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] ()
+2025-06-03 21:02:12,509 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:12,509 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] (10, 0)
+2025-06-03 21:02:12,511 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:12,517 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:12,518 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:12,519 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] ()
+2025-06-03 21:02:12,520 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:12,520 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] (10, 0)
+2025-06-03 21:02:12,521 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:12,527 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:12,528 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:12,529 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] ()
+2025-06-03 21:02:12,530 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:12,530 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] (10, 0)
+2025-06-03 21:02:12,531 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:12,538 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:12,539 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:12,539 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] ()
+2025-06-03 21:02:12,540 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:12,541 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] (10, 0)
+2025-06-03 21:02:12,542 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:12,547 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:12,549 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:12,549 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] ()
+2025-06-03 21:02:12,551 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:12,551 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] (10, 0)
+2025-06-03 21:02:12,553 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:12,558 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:12,559 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:12,559 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] ()
+2025-06-03 21:02:12,560 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:12,562 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] (10, 0)
+2025-06-03 21:02:12,564 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:12,569 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:12,570 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:12,570 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] ()
+2025-06-03 21:02:12,571 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:12,572 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] (10, 0)
+2025-06-03 21:02:12,574 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:12,580 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:12,581 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:12,582 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] ()
+2025-06-03 21:02:12,583 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:12,583 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] (10, 0)
+2025-06-03 21:02:12,584 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:12,590 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:12,590 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:12,591 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] ()
+2025-06-03 21:02:12,592 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:12,592 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] (10, 0)
+2025-06-03 21:02:12,593 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:12,599 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:12,599 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:12,600 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] ()
+2025-06-03 21:02:12,602 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:12,602 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] (10, 0)
+2025-06-03 21:02:12,604 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:12,610 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:12,611 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:12,612 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] ()
+2025-06-03 21:02:12,613 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:12,613 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] (10, 0)
+2025-06-03 21:02:12,614 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:28,316 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:28,317 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:28,318 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] ()
+2025-06-03 21:02:28,319 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:28,320 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] (10, 0)
+2025-06-03 21:02:28,322 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:28,327 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:28,328 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:28,329 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] ()
+2025-06-03 21:02:28,330 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:28,331 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] (10, 0)
+2025-06-03 21:02:28,334 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:28,346 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:28,346 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:28,347 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] ()
+2025-06-03 21:02:28,348 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:28,349 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] (10, 0)
+2025-06-03 21:02:28,351 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:28,366 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:28,367 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:28,368 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] ()
+2025-06-03 21:02:28,370 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:28,371 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] (10, 0)
+2025-06-03 21:02:28,380 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:28,381 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:28,382 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] ()
+2025-06-03 21:02:28,386 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:28,387 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] (10, 0)
+2025-06-03 21:02:28,390 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:28,390 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:28,399 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:28,400 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:28,401 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] ()
+2025-06-03 21:02:28,403 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:28,403 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] (10, 0)
+2025-06-03 21:02:28,406 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:28,407 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:28,407 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] ()
+2025-06-03 21:02:28,409 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:28,410 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] (10, 0)
+2025-06-03 21:02:28,412 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:28,412 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:28,420 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:28,421 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:28,422 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] ()
+2025-06-03 21:02:28,424 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:28,424 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] (10, 0)
+2025-06-03 21:02:28,427 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:28,428 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:28,429 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] ()
+2025-06-03 21:02:28,430 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:28,431 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] (10, 0)
+2025-06-03 21:02:28,433 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:28,434 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:28,442 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:28,443 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:28,444 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] ()
+2025-06-03 21:02:28,446 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:28,447 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] (10, 0)
+2025-06-03 21:02:28,448 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:02:28,455 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:02:28,456 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:02:28,457 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] ()
+2025-06-03 21:02:28,459 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:02:28,460 - sqlalchemy.engine.Engine - INFO - [cached since 2000s ago] (10, 0)
+2025-06-03 21:02:28,462 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:03:02,877 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:03:02,878 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:03:02,878 - sqlalchemy.engine.Engine - INFO - [cached since 2035s ago] ()
+2025-06-03 21:03:02,878 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:03:02,879 - sqlalchemy.engine.Engine - INFO - [cached since 2035s ago] (10, 0)
+2025-06-03 21:03:02,880 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:06:02,212 - app.main - INFO - Shutting down application...
+2025-06-03 21:06:03,734 - app.main - INFO - Starting up application...
+2025-06-03 21:06:03,734 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-03 21:06:03,735 - app.database - INFO - Database connected successfully
+2025-06-03 21:06:03,736 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:06:03,737 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("todos")
+2025-06-03 21:06:03,737 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-06-03 21:06:03,738 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-03 21:06:03,739 - app.database - INFO - Database tables created successfully
+2025-06-03 21:06:26,941 - app.main - INFO - Shutting down application...
+2025-06-03 21:06:27,967 - app.main - INFO - Starting up application...
+2025-06-03 21:06:27,967 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-03 21:06:27,967 - app.database - INFO - Database connected successfully
+2025-06-03 21:06:27,968 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:06:27,968 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("todos")
+2025-06-03 21:06:27,969 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-06-03 21:06:27,969 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-03 21:06:27,970 - app.database - INFO - Database tables created successfully
+2025-06-03 21:06:34,240 - app.main - INFO - Shutting down application...
+2025-06-03 21:06:35,529 - app.main - INFO - Starting up application...
+2025-06-03 21:06:35,529 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-03 21:06:35,529 - app.database - INFO - Database connected successfully
+2025-06-03 21:06:35,530 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:06:35,531 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("todos")
+2025-06-03 21:06:35,531 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-06-03 21:06:35,532 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-03 21:06:35,532 - app.database - INFO - Database tables created successfully
+2025-06-03 21:06:35,856 - app.main - INFO - Shutting down application...
+2025-06-03 21:06:36,829 - app.main - INFO - Starting up application...
+2025-06-03 21:06:36,830 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-03 21:06:36,830 - app.database - INFO - Database connected successfully
+2025-06-03 21:06:36,831 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:06:36,831 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("todos")
+2025-06-03 21:06:36,831 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-06-03 21:06:36,832 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-03 21:06:36,832 - app.database - INFO - Database tables created successfully
+2025-06-03 21:06:41,477 - app.main - INFO - Shutting down application...
+2025-06-03 21:06:42,585 - app.main - INFO - Starting up application...
+2025-06-03 21:06:42,586 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-03 21:06:42,586 - app.database - INFO - Database connected successfully
+2025-06-03 21:06:42,587 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:06:42,587 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("todos")
+2025-06-03 21:06:42,587 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-06-03 21:06:42,588 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-03 21:06:42,589 - app.database - INFO - Database tables created successfully
+2025-06-03 21:06:43,017 - app.main - INFO - Shutting down application...
+2025-06-03 21:06:46,892 - app.main - INFO - Starting up application...
+2025-06-03 21:06:46,893 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-03 21:06:46,893 - app.database - INFO - Database connected successfully
+2025-06-03 21:06:46,893 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:06:46,894 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("todos")
+2025-06-03 21:06:46,894 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-06-03 21:06:46,894 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-03 21:06:46,895 - app.database - INFO - Database tables created successfully
+2025-06-03 21:06:54,554 - app.main - INFO - Shutting down application...
+2025-06-03 21:06:59,243 - app.main - INFO - Starting up application...
+2025-06-03 21:06:59,243 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-03 21:06:59,243 - app.database - INFO - Database connected successfully
+2025-06-03 21:06:59,244 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:06:59,244 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("todos")
+2025-06-03 21:06:59,245 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-06-03 21:06:59,245 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-03 21:06:59,245 - app.database - INFO - Database tables created successfully
+2025-06-03 21:07:05,621 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:05,625 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:07:05,626 - sqlalchemy.engine.Engine - INFO - [generated in 0.00095s] ()
+2025-06-03 21:07:05,629 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:05,629 - sqlalchemy.engine.Engine - INFO - [generated in 0.00078s] (10, 0)
+2025-06-03 21:07:05,631 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:05,639 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:05,640 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:07:05,640 - sqlalchemy.engine.Engine - INFO - [cached since 0.01488s ago] ()
+2025-06-03 21:07:05,641 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:05,642 - sqlalchemy.engine.Engine - INFO - [cached since 0.01315s ago] (10, 0)
+2025-06-03 21:07:05,643 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:05,649 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:05,650 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:07:05,650 - sqlalchemy.engine.Engine - INFO - [cached since 0.02512s ago] ()
+2025-06-03 21:07:05,652 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:05,653 - sqlalchemy.engine.Engine - INFO - [cached since 0.02433s ago] (10, 0)
+2025-06-03 21:07:05,656 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:05,663 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:05,664 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:07:05,665 - sqlalchemy.engine.Engine - INFO - [cached since 0.03946s ago] ()
+2025-06-03 21:07:05,666 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:05,667 - sqlalchemy.engine.Engine - INFO - [cached since 0.0384s ago] (10, 0)
+2025-06-03 21:07:05,670 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:05,678 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:05,679 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:07:05,680 - sqlalchemy.engine.Engine - INFO - [cached since 0.05507s ago] ()
+2025-06-03 21:07:05,682 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:05,682 - sqlalchemy.engine.Engine - INFO - [cached since 0.05386s ago] (10, 0)
+2025-06-03 21:07:05,685 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:05,695 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:05,696 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:07:05,697 - sqlalchemy.engine.Engine - INFO - [cached since 0.0716s ago] ()
+2025-06-03 21:07:05,699 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:05,700 - sqlalchemy.engine.Engine - INFO - [cached since 0.07132s ago] (10, 0)
+2025-06-03 21:07:05,701 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:15,859 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:15,861 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:15,861 - sqlalchemy.engine.Engine - INFO - [generated in 0.00057s] ('stats', 1, 0)
+2025-06-03 21:07:15,862 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:15,863 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:07:15,869 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:15,870 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:15,870 - sqlalchemy.engine.Engine - INFO - [cached since 0.009529s ago] ('stats', 1, 0)
+2025-06-03 21:07:15,871 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:15,872 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:07:26,706 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:26,707 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:26,707 - sqlalchemy.engine.Engine - INFO - [cached since 10.85s ago] ('stats', 1, 0)
+2025-06-03 21:07:26,708 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:26,708 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:07:26,713 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:26,714 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:26,714 - sqlalchemy.engine.Engine - INFO - [cached since 10.85s ago] ('stats', 1, 0)
+2025-06-03 21:07:26,715 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:26,716 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:07:42,008 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:42,009 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:07:42,010 - sqlalchemy.engine.Engine - INFO - [cached since 36.38s ago] ()
+2025-06-03 21:07:42,011 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:42,011 - sqlalchemy.engine.Engine - INFO - [cached since 36.38s ago] (10, 0)
+2025-06-03 21:07:42,013 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:42,021 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:42,021 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:07:42,022 - sqlalchemy.engine.Engine - INFO - [cached since 36.4s ago] ()
+2025-06-03 21:07:42,023 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:42,024 - sqlalchemy.engine.Engine - INFO - [cached since 36.4s ago] (10, 0)
+2025-06-03 21:07:42,025 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:42,033 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:42,034 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:07:42,034 - sqlalchemy.engine.Engine - INFO - [cached since 36.41s ago] ()
+2025-06-03 21:07:42,035 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:42,036 - sqlalchemy.engine.Engine - INFO - [cached since 36.41s ago] (10, 0)
+2025-06-03 21:07:42,037 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:42,044 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:42,045 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:07:42,046 - sqlalchemy.engine.Engine - INFO - [cached since 36.42s ago] ()
+2025-06-03 21:07:42,047 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:42,047 - sqlalchemy.engine.Engine - INFO - [cached since 36.42s ago] (10, 0)
+2025-06-03 21:07:42,050 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:42,060 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:42,061 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:07:42,061 - sqlalchemy.engine.Engine - INFO - [cached since 36.44s ago] ()
+2025-06-03 21:07:42,063 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:42,064 - sqlalchemy.engine.Engine - INFO - [cached since 36.44s ago] (10, 0)
+2025-06-03 21:07:42,066 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:42,078 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:42,079 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:07:42,079 - sqlalchemy.engine.Engine - INFO - [cached since 36.45s ago] ()
+2025-06-03 21:07:42,080 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:42,080 - sqlalchemy.engine.Engine - INFO - [cached since 36.45s ago] (10, 0)
+2025-06-03 21:07:42,083 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:44,485 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:44,486 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:44,486 - sqlalchemy.engine.Engine - INFO - [cached since 28.63s ago] ('stats', 1, 0)
+2025-06-03 21:07:44,487 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:44,487 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:07:44,491 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:44,492 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:44,492 - sqlalchemy.engine.Engine - INFO - [cached since 28.63s ago] ('stats', 1, 0)
+2025-06-03 21:07:44,493 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:44,493 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:07:58,192 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:58,193 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:58,193 - sqlalchemy.engine.Engine - INFO - [cached since 42.33s ago] ('stats', 1, 0)
+2025-06-03 21:07:58,194 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:58,195 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:07:58,199 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:07:58,200 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:07:58,201 - sqlalchemy.engine.Engine - INFO - [cached since 42.34s ago] ('stats', 1, 0)
+2025-06-03 21:07:58,201 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:07:58,202 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:08:11,185 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:08:11,186 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:08:11,186 - sqlalchemy.engine.Engine - INFO - [cached since 55.33s ago] ('stats', 1, 0)
+2025-06-03 21:08:11,187 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:08:11,188 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:08:11,191 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:08:11,192 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:08:11,192 - sqlalchemy.engine.Engine - INFO - [cached since 55.33s ago] ('stats', 1, 0)
+2025-06-03 21:08:11,193 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:08:11,194 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:08:24,166 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:08:24,167 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:08:24,167 - sqlalchemy.engine.Engine - INFO - [cached since 68.31s ago] ('stats', 1, 0)
+2025-06-03 21:08:24,168 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:08:24,168 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:08:24,173 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:08:24,173 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:08:24,174 - sqlalchemy.engine.Engine - INFO - [cached since 68.31s ago] ('stats', 1, 0)
+2025-06-03 21:08:24,174 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:08:24,175 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:10:12,447 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:10:12,448 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:10:12,448 - sqlalchemy.engine.Engine - INFO - [cached since 176.6s ago] ('stats', 1, 0)
+2025-06-03 21:10:12,449 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:10:12,449 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:18:34,767 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:18:34,768 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:18:34,768 - sqlalchemy.engine.Engine - INFO - [cached since 689.1s ago] ()
+2025-06-03 21:18:34,769 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:18:34,769 - sqlalchemy.engine.Engine - INFO - [cached since 689.1s ago] (10, 0)
+2025-06-03 21:18:34,770 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:18:34,776 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:18:34,776 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:18:34,777 - sqlalchemy.engine.Engine - INFO - [cached since 689.2s ago] ()
+2025-06-03 21:18:34,777 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:18:34,778 - sqlalchemy.engine.Engine - INFO - [cached since 689.1s ago] (10, 0)
+2025-06-03 21:18:34,778 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:18:34,783 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:18:34,784 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:18:34,784 - sqlalchemy.engine.Engine - INFO - [cached since 689.2s ago] ()
+2025-06-03 21:18:34,785 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:18:34,785 - sqlalchemy.engine.Engine - INFO - [cached since 689.2s ago] (10, 0)
+2025-06-03 21:18:34,786 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:18:34,791 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:18:34,791 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:18:34,792 - sqlalchemy.engine.Engine - INFO - [cached since 689.2s ago] ()
+2025-06-03 21:18:34,792 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:18:34,793 - sqlalchemy.engine.Engine - INFO - [cached since 689.2s ago] (10, 0)
+2025-06-03 21:18:34,794 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:18:34,799 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:18:34,799 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:18:34,800 - sqlalchemy.engine.Engine - INFO - [cached since 689.2s ago] ()
+2025-06-03 21:18:34,800 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:18:34,801 - sqlalchemy.engine.Engine - INFO - [cached since 689.2s ago] (10, 0)
+2025-06-03 21:18:34,802 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:18:34,806 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:18:34,806 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:18:34,807 - sqlalchemy.engine.Engine - INFO - [cached since 689.2s ago] ()
+2025-06-03 21:18:34,807 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:18:34,808 - sqlalchemy.engine.Engine - INFO - [cached since 689.2s ago] (10, 0)
+2025-06-03 21:18:34,809 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:18:39,465 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:18:39,465 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:18:39,466 - sqlalchemy.engine.Engine - INFO - [cached since 693.8s ago] ()
+2025-06-03 21:18:39,467 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:18:39,467 - sqlalchemy.engine.Engine - INFO - [cached since 693.8s ago] (10, 0)
+2025-06-03 21:18:39,468 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:18:39,474 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:18:39,475 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:18:39,476 - sqlalchemy.engine.Engine - INFO - [cached since 693.9s ago] ()
+2025-06-03 21:18:39,477 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:18:39,477 - sqlalchemy.engine.Engine - INFO - [cached since 693.8s ago] (10, 0)
+2025-06-03 21:18:39,478 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:18:39,483 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:18:39,484 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:18:39,484 - sqlalchemy.engine.Engine - INFO - [cached since 693.9s ago] ()
+2025-06-03 21:18:39,485 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:18:39,486 - sqlalchemy.engine.Engine - INFO - [cached since 693.9s ago] (10, 0)
+2025-06-03 21:18:39,487 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:18:39,491 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:18:39,492 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:18:39,492 - sqlalchemy.engine.Engine - INFO - [cached since 693.9s ago] ()
+2025-06-03 21:18:39,494 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:18:39,494 - sqlalchemy.engine.Engine - INFO - [cached since 693.9s ago] (10, 0)
+2025-06-03 21:18:39,495 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:18:39,500 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:18:39,500 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:18:39,501 - sqlalchemy.engine.Engine - INFO - [cached since 693.9s ago] ()
+2025-06-03 21:18:39,502 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:18:39,502 - sqlalchemy.engine.Engine - INFO - [cached since 693.9s ago] (10, 0)
+2025-06-03 21:18:39,504 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:18:39,509 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:18:39,510 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:18:39,510 - sqlalchemy.engine.Engine - INFO - [cached since 693.9s ago] ()
+2025-06-03 21:18:39,511 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:18:39,511 - sqlalchemy.engine.Engine - INFO - [cached since 693.9s ago] (10, 0)
+2025-06-03 21:18:39,513 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:18:46,317 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:18:46,318 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:18:46,318 - sqlalchemy.engine.Engine - INFO - [cached since 690.5s ago] ('stats', 1, 0)
+2025-06-03 21:18:46,318 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:18:46,319 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:18:46,321 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:18:46,321 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:18:46,322 - sqlalchemy.engine.Engine - INFO - [cached since 690.5s ago] ('stats', 1, 0)
+2025-06-03 21:18:46,322 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:18:46,322 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:18:53,412 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:18:53,413 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:18:53,413 - sqlalchemy.engine.Engine - INFO - [cached since 697.6s ago] ('stats', 1, 0)
+2025-06-03 21:18:53,414 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:18:53,415 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:18:53,415 - sqlalchemy.engine.Engine - INFO - [cached since 697.6s ago] ('stats', 1, 0)
+2025-06-03 21:18:53,416 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:18:53,416 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:18:53,417 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:18:53,418 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:23:02,023 - app.main - INFO - Shutting down application...
+2025-06-03 21:43:50,418 - app.main - INFO - Starting up application...
+2025-06-03 21:43:50,418 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-03 21:43:50,418 - app.database - INFO - Database connected successfully
+2025-06-03 21:43:50,421 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:43:50,421 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("todos")
+2025-06-03 21:43:50,421 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-06-03 21:43:50,423 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-03 21:43:50,423 - app.database - INFO - Database tables created successfully
+2025-06-03 21:44:09,856 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:44:09,858 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:44:09,859 - sqlalchemy.engine.Engine - INFO - [generated in 0.00036s] ()
+2025-06-03 21:44:09,860 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:44:09,860 - sqlalchemy.engine.Engine - INFO - [generated in 0.00032s] (10, 0)
+2025-06-03 21:44:09,861 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:44:09,867 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:44:09,867 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:44:09,868 - sqlalchemy.engine.Engine - INFO - [cached since 0.00958s ago] ()
+2025-06-03 21:44:09,869 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:44:09,869 - sqlalchemy.engine.Engine - INFO - [cached since 0.008915s ago] (10, 0)
+2025-06-03 21:44:09,870 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:44:09,874 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:44:09,874 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:44:09,875 - sqlalchemy.engine.Engine - INFO - [cached since 0.01655s ago] ()
+2025-06-03 21:44:09,876 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:44:09,876 - sqlalchemy.engine.Engine - INFO - [cached since 0.0163s ago] (10, 0)
+2025-06-03 21:44:09,877 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:44:09,882 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:44:09,883 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:44:09,883 - sqlalchemy.engine.Engine - INFO - [cached since 0.02482s ago] ()
+2025-06-03 21:44:09,884 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:44:09,884 - sqlalchemy.engine.Engine - INFO - [cached since 0.02428s ago] (10, 0)
+2025-06-03 21:44:09,885 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:44:09,889 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:44:09,890 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:44:09,890 - sqlalchemy.engine.Engine - INFO - [cached since 0.03171s ago] ()
+2025-06-03 21:44:09,891 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:44:09,891 - sqlalchemy.engine.Engine - INFO - [cached since 0.03123s ago] (10, 0)
+2025-06-03 21:44:09,892 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:44:09,896 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:44:09,897 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:44:09,897 - sqlalchemy.engine.Engine - INFO - [cached since 0.03911s ago] ()
+2025-06-03 21:44:09,899 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:44:09,899 - sqlalchemy.engine.Engine - INFO - [cached since 0.03944s ago] (10, 0)
+2025-06-03 21:44:09,901 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:44:11,479 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:44:11,480 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:44:11,481 - sqlalchemy.engine.Engine - INFO - [generated in 0.00057s] ('stats', 1, 0)
+2025-06-03 21:44:11,482 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:44:11,483 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:44:11,489 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:44:11,490 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:44:11,491 - sqlalchemy.engine.Engine - INFO - [cached since 0.01067s ago] ('stats', 1, 0)
+2025-06-03 21:44:11,491 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:44:11,492 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:47:03,548 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:47:03,548 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:47:03,549 - sqlalchemy.engine.Engine - INFO - [cached since 172.1s ago] ('a28e489e-9a5a-4653-a3aa-f2be0615e7d7', 1, 0)
+2025-06-03 21:47:03,551 - sqlalchemy.engine.Engine - INFO - UPDATE todos SET status=?, due_date=?, updated_at=CURRENT_TIMESTAMP WHERE todos.id = ?
+2025-06-03 21:47:03,551 - sqlalchemy.engine.Engine - INFO - [generated in 0.00037s] ('IN_PROGRESS', '2025-06-05 14:11:00.000000', 'a28e489e-9a5a-4653-a3aa-f2be0615e7d7')
+2025-06-03 21:47:03,552 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-03 21:47:03,556 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:47:03,558 - sqlalchemy.engine.Engine - INFO - SELECT todos.id, todos.title, todos.description, todos.status, todos.priority, todos.due_date, todos.tags, todos.created_at, todos.updated_at 
+FROM todos 
+WHERE todos.id = ?
+2025-06-03 21:47:03,559 - sqlalchemy.engine.Engine - INFO - [generated in 0.00078s] ('a28e489e-9a5a-4653-a3aa-f2be0615e7d7',)
+2025-06-03 21:47:03,560 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:47:37,930 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:47:37,930 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:47:37,931 - sqlalchemy.engine.Engine - INFO - [cached since 206.5s ago] ('stats', 1, 0)
+2025-06-03 21:47:37,932 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:47:37,932 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:47:37,938 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:47:37,938 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:47:37,939 - sqlalchemy.engine.Engine - INFO - [cached since 206.5s ago] ('stats', 1, 0)
+2025-06-03 21:47:37,940 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:47:37,940 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:48:09,278 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:48:09,279 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:48:09,280 - sqlalchemy.engine.Engine - INFO - [cached since 237.8s ago] ('stats', 1, 0)
+2025-06-03 21:48:09,280 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:48:09,281 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:48:09,287 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:48:09,287 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 21:48:09,288 - sqlalchemy.engine.Engine - INFO - [cached since 237.8s ago] ('stats', 1, 0)
+2025-06-03 21:48:09,289 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 21:48:09,289 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 21:55:58,060 - app.main - INFO - Starting up application...
+2025-06-03 21:55:58,060 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-03 21:55:58,060 - app.database - INFO - Database connected successfully
+2025-06-03 21:55:58,061 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:55:58,061 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("todos")
+2025-06-03 21:55:58,061 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-06-03 21:55:58,062 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-03 21:55:58,062 - app.database - INFO - Database tables created successfully
+2025-06-03 21:59:05,368 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 21:59:05,371 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 21:59:05,372 - sqlalchemy.engine.Engine - INFO - [generated in 0.00080s] ()
+2025-06-03 21:59:05,374 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 21:59:05,374 - sqlalchemy.engine.Engine - INFO - [generated in 0.00054s] (10, 0)
+2025-06-03 21:59:05,376 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:17:33,738 - app.main - INFO - Starting up application...
+2025-06-03 23:17:33,738 - databases - INFO - Connected to database sqlite+aiosqlite:///./app.db
+2025-06-03 23:17:33,739 - app.database - INFO - Database connected successfully
+2025-06-03 23:17:33,743 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:17:33,743 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("todos")
+2025-06-03 23:17:33,744 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-06-03 23:17:33,746 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-03 23:17:33,747 - app.database - INFO - Database tables created successfully
+2025-06-03 23:34:38,812 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:34:38,815 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 23:34:38,815 - sqlalchemy.engine.Engine - INFO - [generated in 0.00062s] ('stats', 1, 0)
+2025-06-03 23:34:38,817 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:34:38,818 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 23:34:48,804 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:34:48,810 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:34:48,810 - sqlalchemy.engine.Engine - INFO - [generated in 0.00063s] ()
+2025-06-03 23:34:48,813 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:34:48,814 - sqlalchemy.engine.Engine - INFO - [generated in 0.00071s] (10, 0)
+2025-06-03 23:34:48,819 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:35:07,112 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:35:07,113 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:35:07,113 - sqlalchemy.engine.Engine - INFO - [cached since 18.3s ago] ()
+2025-06-03 23:35:07,114 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:35:07,114 - sqlalchemy.engine.Engine - INFO - [cached since 18.3s ago] (10, 0)
+2025-06-03 23:35:07,115 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:35:21,595 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:35:21,595 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:35:21,596 - sqlalchemy.engine.Engine - INFO - [cached since 32.79s ago] ()
+2025-06-03 23:35:21,596 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:35:21,597 - sqlalchemy.engine.Engine - INFO - [cached since 32.78s ago] (10, 0)
+2025-06-03 23:35:21,598 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:35:48,548 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:35:48,549 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:35:48,550 - sqlalchemy.engine.Engine - INFO - [cached since 59.74s ago] ()
+2025-06-03 23:35:48,550 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:35:48,551 - sqlalchemy.engine.Engine - INFO - [cached since 59.74s ago] (10, 0)
+2025-06-03 23:35:48,552 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:35:59,796 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:35:59,797 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:35:59,797 - sqlalchemy.engine.Engine - INFO - [cached since 70.99s ago] ()
+2025-06-03 23:35:59,798 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:35:59,798 - sqlalchemy.engine.Engine - INFO - [cached since 70.99s ago] (10, 0)
+2025-06-03 23:35:59,799 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:36:48,136 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:36:48,137 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:36:48,137 - sqlalchemy.engine.Engine - INFO - [cached since 119.3s ago] ()
+2025-06-03 23:36:48,138 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:36:48,139 - sqlalchemy.engine.Engine - INFO - [cached since 119.3s ago] (10, 0)
+2025-06-03 23:36:48,140 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:36:57,295 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:36:57,296 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:36:57,296 - sqlalchemy.engine.Engine - INFO - [cached since 128.5s ago] ()
+2025-06-03 23:36:57,297 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:36:57,298 - sqlalchemy.engine.Engine - INFO - [cached since 128.5s ago] (10, 0)
+2025-06-03 23:36:57,299 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:37:49,343 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:37:49,344 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:37:49,344 - sqlalchemy.engine.Engine - INFO - [cached since 180.5s ago] ()
+2025-06-03 23:37:49,345 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:37:49,345 - sqlalchemy.engine.Engine - INFO - [cached since 180.5s ago] (10, 0)
+2025-06-03 23:37:49,346 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:41:23,678 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:41:23,680 - sqlalchemy.engine.Engine - INFO - INSERT INTO todos (id, title, description, status, priority, due_date, tags) VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING created_at, updated_at
+2025-06-03 23:41:23,930 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-03 23:41:23,933 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:41:23,935 - sqlalchemy.engine.Engine - INFO - SELECT todos.id, todos.title, todos.description, todos.status, todos.priority, todos.due_date, todos.tags, todos.created_at, todos.updated_at 
+FROM todos 
+WHERE todos.id = ?
+2025-06-03 23:41:23,935 - sqlalchemy.engine.Engine - INFO - [generated in 0.00056s] ('a90b0f87-b259-4203-afa4-76217a3785db',)
+2025-06-03 23:41:23,937 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:43:16,564 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:43:16,566 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:43:16,566 - sqlalchemy.engine.Engine - INFO - [cached since 507.8s ago] ()
+2025-06-03 23:43:16,567 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:43:16,568 - sqlalchemy.engine.Engine - INFO - [cached since 507.8s ago] (10, 0)
+2025-06-03 23:43:16,569 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:43:16,573 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:43:16,574 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:43:16,574 - sqlalchemy.engine.Engine - INFO - [cached since 507.8s ago] ()
+2025-06-03 23:43:16,575 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:43:16,576 - sqlalchemy.engine.Engine - INFO - [cached since 507.8s ago] (10, 0)
+2025-06-03 23:43:16,577 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:43:16,582 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:43:16,582 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:43:16,583 - sqlalchemy.engine.Engine - INFO - [cached since 507.8s ago] ()
+2025-06-03 23:43:16,583 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:43:16,584 - sqlalchemy.engine.Engine - INFO - [cached since 507.8s ago] (10, 0)
+2025-06-03 23:43:16,585 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:43:16,592 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:43:16,592 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:43:16,593 - sqlalchemy.engine.Engine - INFO - [cached since 507.8s ago] ()
+2025-06-03 23:43:16,594 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:43:16,595 - sqlalchemy.engine.Engine - INFO - [cached since 507.8s ago] (10, 0)
+2025-06-03 23:43:16,596 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:43:16,601 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:43:16,602 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:43:16,602 - sqlalchemy.engine.Engine - INFO - [cached since 507.8s ago] ()
+2025-06-03 23:43:16,603 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:43:16,603 - sqlalchemy.engine.Engine - INFO - [cached since 507.8s ago] (10, 0)
+2025-06-03 23:43:16,604 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:43:16,612 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:43:16,612 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:43:16,613 - sqlalchemy.engine.Engine - INFO - [cached since 507.8s ago] ()
+2025-06-03 23:43:16,614 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:43:16,615 - sqlalchemy.engine.Engine - INFO - [cached since 507.8s ago] (10, 0)
+2025-06-03 23:43:16,618 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:43:51,175 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:43:51,176 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 23:43:51,176 - sqlalchemy.engine.Engine - INFO - [cached since 552.4s ago] ('a90b0f87-b259-4203-afa4-76217a3785db', 1, 0)
+2025-06-03 23:43:51,178 - sqlalchemy.engine.Engine - INFO - UPDATE todos SET due_date=?, updated_at=CURRENT_TIMESTAMP WHERE todos.id = ?
+2025-06-03 23:43:51,178 - sqlalchemy.engine.Engine - INFO - [generated in 0.00041s] ('2025-06-06 16:33:00.000000', 'a90b0f87-b259-4203-afa4-76217a3785db')
+2025-06-03 23:43:51,180 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-03 23:43:51,183 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:43:51,183 - sqlalchemy.engine.Engine - INFO - SELECT todos.id, todos.title, todos.description, todos.status, todos.priority, todos.due_date, todos.tags, todos.created_at, todos.updated_at 
+FROM todos 
+WHERE todos.id = ?
+2025-06-03 23:43:51,184 - sqlalchemy.engine.Engine - INFO - [cached since 147.2s ago] ('a90b0f87-b259-4203-afa4-76217a3785db',)
+2025-06-03 23:43:51,185 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:43:57,204 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:43:57,205 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 23:43:57,205 - sqlalchemy.engine.Engine - INFO - [cached since 558.4s ago] ('a90b0f87-b259-4203-afa4-76217a3785db', 1, 0)
+2025-06-03 23:43:57,206 - sqlalchemy.engine.Engine - INFO - UPDATE todos SET status=?, updated_at=CURRENT_TIMESTAMP WHERE todos.id = ?
+2025-06-03 23:43:57,206 - sqlalchemy.engine.Engine - INFO - [generated in 0.00032s] ('IN_PROGRESS', 'a90b0f87-b259-4203-afa4-76217a3785db')
+2025-06-03 23:43:57,208 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-06-03 23:43:57,211 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:43:57,211 - sqlalchemy.engine.Engine - INFO - SELECT todos.id, todos.title, todos.description, todos.status, todos.priority, todos.due_date, todos.tags, todos.created_at, todos.updated_at 
+FROM todos 
+WHERE todos.id = ?
+2025-06-03 23:43:57,212 - sqlalchemy.engine.Engine - INFO - [cached since 153.3s ago] ('a90b0f87-b259-4203-afa4-76217a3785db',)
+2025-06-03 23:43:57,212 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:44:07,624 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:44:07,625 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 23:44:07,625 - sqlalchemy.engine.Engine - INFO - [cached since 568.8s ago] ('stats', 1, 0)
+2025-06-03 23:44:07,627 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:44:07,627 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 23:44:07,632 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:44:07,633 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos 
+WHERE todos.id = ?
+ LIMIT ? OFFSET ?
+2025-06-03 23:44:07,633 - sqlalchemy.engine.Engine - INFO - [cached since 568.8s ago] ('stats', 1, 0)
+2025-06-03 23:44:07,634 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:44:07,635 - app.main - WARNING - HTTP exception: Todo not found
+2025-06-03 23:45:18,607 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:45:18,608 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:45:18,608 - sqlalchemy.engine.Engine - INFO - [cached since 629.8s ago] ()
+2025-06-03 23:45:18,609 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:45:18,609 - sqlalchemy.engine.Engine - INFO - [cached since 629.8s ago] (10, 0)
+2025-06-03 23:45:18,610 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:45:18,615 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:45:18,615 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:45:18,616 - sqlalchemy.engine.Engine - INFO - [cached since 629.8s ago] ()
+2025-06-03 23:45:18,617 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:45:18,617 - sqlalchemy.engine.Engine - INFO - [cached since 629.8s ago] (10, 0)
+2025-06-03 23:45:18,618 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:45:18,623 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:45:18,624 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:45:18,625 - sqlalchemy.engine.Engine - INFO - [cached since 629.8s ago] ()
+2025-06-03 23:45:18,626 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:45:18,627 - sqlalchemy.engine.Engine - INFO - [cached since 629.8s ago] (10, 0)
+2025-06-03 23:45:18,629 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:45:18,634 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:45:18,635 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:45:18,635 - sqlalchemy.engine.Engine - INFO - [cached since 629.8s ago] ()
+2025-06-03 23:45:18,636 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:45:18,637 - sqlalchemy.engine.Engine - INFO - [cached since 629.8s ago] (10, 0)
+2025-06-03 23:45:18,638 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:45:18,646 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:45:18,647 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:45:18,647 - sqlalchemy.engine.Engine - INFO - [cached since 629.8s ago] ()
+2025-06-03 23:45:18,649 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:45:18,649 - sqlalchemy.engine.Engine - INFO - [cached since 629.8s ago] (10, 0)
+2025-06-03 23:45:18,652 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-03 23:45:18,660 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-06-03 23:45:18,661 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos) AS anon_1
+2025-06-03 23:45:18,662 - sqlalchemy.engine.Engine - INFO - [cached since 629.9s ago] ()
+2025-06-03 23:45:18,663 - sqlalchemy.engine.Engine - INFO - SELECT todos.id AS todos_id, todos.title AS todos_title, todos.description AS todos_description, todos.status AS todos_status, todos.priority AS todos_priority, todos.due_date AS todos_due_date, todos.tags AS todos_tags, todos.created_at AS todos_created_at, todos.updated_at AS todos_updated_at 
+FROM todos ORDER BY todos.created_at DESC
+ LIMIT ? OFFSET ?
+2025-06-03 23:45:18,663 - sqlalchemy.engine.Engine - INFO - [cached since 629.8s ago] (10, 0)
+2025-06-03 23:45:18,665 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-06-04 08:30:24,514 - app.main - INFO - Shutting down application...
